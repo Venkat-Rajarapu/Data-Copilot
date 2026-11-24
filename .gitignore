@@ -1,0 +1,200 @@
+# ==========================================
+# PYTHON
+# ==========================================
+
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+dist-python/
+wheels/
+.pybuild/
+
+# Virtual Environments
+.venv/
+venv/
+env/
+ENV/
+
+# Python Testing
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+
+# Python Code Quality
+.ruff_cache/
+.mypy_cache/
+.pyright/
+.dmypy.json
+.pyre/
+
+# ==========================================
+# ENVIRONMENT VARIABLES & SECRETS
+# ==========================================
+
+.env
+.env.*
+!.env.example
+
+*.pem
+*.key
+secrets/
+credentials/
+service-account*.json
+
+# ==========================================
+# FRONTEND / NODE.JS
+# ==========================================
+
+node_modules/
+frontend/node_modules/
+dist/
+build/
+coverage/
+.npm/
+.parcel-cache/
+.vite/
+
+# ==========================================
+# IDE & EDITORS
+# ==========================================
+
+.vscode/
+.idea/
+*.swp
+*.swo
+*.swn
+*~
+
+# ==========================================
+# LOGS & TEMPORARY FILES
+# ==========================================
+
+*.log
+logs/
+storage/logs/
+tmp/
+temp/
+*.tmp
+*.bak
+*.old
+
+# ==========================================
+# DATABASE
+# ==========================================
+
+*.db
+*.sqlite
+*.sqlite3
+*.dump
+*.sql.bak
+
+# ==========================================
+# DATASETS
+# ==========================================
+
+# Ignore local datasets
+data/*.csv
+data/*.xlsx
+data/*.xls
+data/*.json
+data/*.parquet
+
+# Preserve folder structure
+!data/.gitkeep
+
+# ==========================================
+# STORAGE & UPLOADS
+# ==========================================
+
+storage/uploads/*
+storage/processed/*
+storage/temp/*
+
+# Preserve storage folder structure
+!storage/uploads/.gitkeep
+!storage/processed/.gitkeep
+!storage/temp/.gitkeep
+
+# ==========================================
+# MACHINE LEARNING / AI ARTIFACTS
+# ==========================================
+
+*.pt
+*.pth
+*.h5
+*.hdf5
+*.keras
+*.pkl
+*.pickle
+*.joblib
+*.onnx
+*.safetensors
+*.model
+
+# ML Experiment Tracking
+mlruns/
+wandb/
+lightning_logs/
+checkpoints/
+
+# ==========================================
+# JUPYTER NOTEBOOKS
+# ==========================================
+
+.ipynb_checkpoints/
+profile/
+*.ipynb~
+
+# ==========================================
+# DOCKER / DEPLOYMENT TEMPORARY FILES
+# ==========================================
+
+.docker/
+docker-data/
+
+# ==========================================
+# OPERATING SYSTEM
+# ==========================================
+
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ==========================================
+# ARCHIVES & BACKUPS
+# ==========================================
+
+*.zip
+*.rar
+*.7z
+*.tar
+*.gz
+*.bak
+
+# ==========================================
+# GENERATED DOCUMENTATION
+# ==========================================
+
+site/
+docs/_build/
+
+# ==========================================
+# LOCAL CONFIGURATION
+# ==========================================
+
+*.local
+*.local.*
+.envrc
+.direnv/
+.cache/
+.pytest_cache/
+.ruff_cache/
+# Runtime uploaded datasets
+backend/uploads/

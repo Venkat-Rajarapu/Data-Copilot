@@ -1,0 +1,13 @@
+# Backend Framework
+fastapi
+uvicorn[standard]
+
+# Configuration
+pydantic-settings
+python-dotenv
+
+# File Upload
+python-multipart
+
+pwdlib[argon2]>=0.2.1
+PyJWT[crypto]>=2.10
